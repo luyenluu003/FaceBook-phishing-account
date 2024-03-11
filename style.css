@@ -1,0 +1,646 @@
+.container {
+	margin: auto;
+	display: flex;
+	width: 1080px;
+	background-color: white;
+	background: #f0f7ff;
+	height: 100vh;
+	flex-direction: row;
+}
+
+.containerleft {
+	height: 100%;
+	width: 360px;
+	flex-basis: 100%;
+	flex-direction: column;
+	font-size: 12px;
+	line-height: 16px;
+	justify-content: center;
+}
+
+.containerleft .x1kpxq89 {
+	max-height: 15px;
+	min-height: 0px;
+	object-fit: contain;
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.containerleft h3 {
+	color: #1c2b33;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+	grid-area: auto;
+	margin-top: 20px;
+}
+
+.containerleft p {
+	color: #1c2b33;
+	display: inline;
+	font-size: 18px;
+	text-align: left;
+	grid-area: auto;
+	line-height: 16px;
+}
+
+.containerleft p a {
+	align-items: stretch;
+	color: #47a5fa;
+	display: inline;
+	font-size: 18px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: left;
+}
+
+.btnpersonalpage {
+	margin-top: 25px;
+}
+
+.Experienceconnection,
+.btnpersonalpage {
+	align-items: center;
+	width: 95%;
+	height: 52px;
+	line-height: 16px;
+	padding: 12px 0;
+	border-radius: 12px;
+	display: flex;
+}
+
+.btnpersonalpage button {
+	background-color: #f0f7ff;
+}
+
+.btnpersonalpage button:focus,
+.Experienceconnection button:focus {
+	background-color: #344854;
+}
+
+.Experienceconnection button {
+	background-color: #f0f7ff;
+}
+
+.Experienceconnection button,
+.btnpersonalpage button {
+	width: 100%;
+	height: 52px;
+	border-radius: 12px;
+	border: none;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+}
+
+.Experienceconnection {
+	margin-bottom: 0.5px;
+}
+
+.Experienceconnection button:hover,
+.btnpersonalpage button:hover {
+	background-color: #dee3e9;
+}
+
+.btnpersonalpage button svg {
+	color: #1c2b33;
+	font-weight: 700;
+	width: 24px;
+	height: 20px;
+}
+
+.btnpersonalpage button:focus span,
+.Experienceconnection button:focus span,
+.btnpersonalpage button:focus svg,
+.Experienceconnection button:focus svg {
+	color: #ffffff;
+	fill: #ffffff;
+}
+
+.btnpersonalpage span {
+	color: #1c2b33;
+}
+
+.Experienceconnection svg {
+	color: #1c2b33;
+	font-weight: 700;
+	width: 24px;
+	height: 20px;
+}
+
+.Experienceconnection span {
+	color: #1c2b33;
+	font-weight: 700;
+}
+
+.Experienceconnection svg,
+.btnpersonalpage button svg {
+	width: 24px;
+	height: auto;
+	grid-area: auto;
+	line-height: 16px;
+	margin-left: 10px;
+}
+
+.Experienceconnection button span,
+.btnpersonalpage button span {
+	font-weight: 500;
+	margin-left: 20px;
+}
+
+.containerleft h5 {
+	color: 14px;
+	font-weight: 700;
+	grid-area: auto;
+	text-align: left;
+	margin-top: 20px;
+	color: #1c2b33;
+	margin-bottom: 20px;
+}
+
+.contentRightsecurity {
+	width: 720px;
+	padding: 0 20px;
+	margin-top: 65px;
+}
+
+.containerrightsecurity {
+	width: 720px;
+	height: 100vh;
+	padding: 0 20px;
+	margin-top: 65px;
+}
+
+.topRight {
+	display: flex;
+	flex-direction: column;
+	line-height: 16px;
+}
+
+.topRight h2 {
+	color: #1c2b33;
+	font-size: 24px;
+	font-weight: 700;
+	grid-area: auto;
+	line-height: 30px;
+	text-align: left;
+}
+
+.topRight span {
+	color: #1c2b33;
+	display: inline;
+	font-size: 15px;
+	grid-area: auto;
+}
+
+.bodyright {
+	cursor: pointer;
+	width: 100%;
+	height: 64px;
+	display: flex;
+	font-size: 12px;
+	grid-area: auto;
+	line-height: 16px;
+	padding: 12px 16px;
+	justify-content: space-between;
+	background-color: #fff;
+}
+
+.bodyright:hover {
+	background: #f2f2f2;
+}
+
+.right {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.right img {
+	width: 40px;
+	height: 40px;
+	line-height: 16px;
+	object-fit: cover;
+}
+
+.contentrightaccount {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	grid-area: auto;
+	line-height: 16px;
+}
+
+.contentrightaccount h6 {
+	align-items: stretch;
+	grid-area: auto;
+	line-height: 20px;
+	color: #1c2b33;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.contentrightaccount p {
+	font-size: 15px;
+	color: #465a99;
+	margin-top: -2px;
+}
+
+.left {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+
+.left .loader {
+	margin-top: 4px;
+}
+
+.left img {
+	width: 20px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+.left .imageSecurity {
+	color: #334148;
+	width: 16px;
+	height: 16px;
+	margin-top: 12px;
+}
+
+@media screen and (max-width: 946px) {
+	.containerleft {
+		width: 100%;
+		flex-basis: auto;
+		padding: 10px 20px;
+	}
+
+	.contentRight {
+		display: none;
+		width: 100%;
+	}
+
+	.container {
+		flex-direction: column;
+		width: 100%;
+
+	}
+
+	.tt {
+		display: none;
+	}
+
+	.containerright {
+		width: 100%;
+		display: none;
+	}
+
+	.bodyright {
+		width: 100%;
+	}
+
+	.contentRightsecurity {
+		width: 100%;
+		display: none;
+	}
+}
+
+@media screen and (min-width: 947px) {
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f0f7ff;
+	display: flex;
+	height: 100vh;
+}
+.verifyAccountContainer {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	background-color: rgba(240, 247, 255, 0.8);
+	height: 100vh;
+}
+
+.verifyAccount {
+	margin: auto;
+	display: flex;
+	width: 548px;
+	background-color: white;
+	background: linear-gradient(to right, #fdf5f6, #eef6ff);
+	height: 480px;
+	border-radius: 12px;
+	flex-direction: column;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headerIcon {
+	display: flex;
+	font-size: 12px;
+	line-height: 16px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 20px 0 20px;
+}
+
+.icon {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.back {
+	font-size: 12px;
+}
+
+.iconback {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	color: #000;
+	border-radius: 50%;
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	font-weight: 500;
+	background-color: #fdf5f6;
+	align-items: center;
+	padding: 8px;
+	border: 1px solid #fdf5f6;
+	transition: background-color 0.3s;
+}
+
+.iconback:hover {
+	background-color: #e3eaf2;
+	color: #000;
+}
+
+.iconClose {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	color: #000;
+	border-radius: 50%;
+	display: flex;
+	font-size: 20px;
+	text-align: center;
+	justify-content: center;
+	font-weight: 500;
+	background-color: #eef6ff;
+	align-items: center;
+	padding: 8px;
+	border: 1px solid #fdf5f6;
+	transition: background-color 0.3s;
+}
+
+.iconClose:hover {
+	background-color: #ccc;
+	color: #000;
+}
+
+.verifyContent {
+	padding: 20px 20px;
+	display: flex;
+	flex-direction: column;
+	grid-area: auto;
+	line-height: 16px;
+}
+
+.verifyContent h3 {
+	font-size: 24px;
+	color: #1c2b33;
+	font-weight: 700;
+	grid-area: auto;
+}
+
+.verifyContent p {
+	font-size: 15px;
+	margin: 10px 0 0;
+	font-weight: 500;
+	text-align: left;
+	color: #1c2b33;
+}
+
+.verifyContentAccount {
+	padding: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	grid-area: auto;
+	line-height: 16px;
+}
+
+.account {
+	align-items: stretch;
+	display: flex;
+	font-size: 12px;
+	grid-area: auto;
+	line-height: 16px;
+	padding: 12px 16px;
+	background-color: #fff;
+	height: 64px;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.btn {
+	width: 100%;
+	padding: 12px 16px;
+	margin-top: -60px;
+}
+
+.space {
+	padding: 20px 20px;
+}
+
+.rightAccount {
+	display: flex;
+}
+
+.rightAccount img {
+	width: 40px;
+	height: 40px;
+	line-height: 16px;
+	object-fit: cover;
+}
+
+.contentRight {
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	grid-area: auto;
+	line-height: 16px;
+}
+
+.contentRight h6 {
+	align-items: stretch;
+	grid-area: auto;
+	line-height: 20px;
+	color: #1c2b33;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.contentRight p {
+	font-size: 15px;
+	color: #465a69;
+	margin-top: -2px;
+}
+
+.leftAccount {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
+
+.loader {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 0;
+	top: 20%;
+	border: 3px solid #1877f2;
+	border-bottom-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	animation: rotation 1s linear infinite;
+}
+
+.fb {
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+
+	border-bottom: 1px solid #ccc;
+}
+.password {
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+
+.ins {
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+}
+
+.btnLogin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	font-family: inherit;
+	background-color: #0866ff;
+	border: none;
+	border-radius: 22px;
+	padding: 0 16px;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 500;
+	height: 44px;
+	color: #fff;
+	font-weight: 700;
+	line-height: 48px;
+	justify-content: center;
+	margin-top: 110px;
+}
+
+.Input {
+	padding: 12px 16px;
+	display: flex;
+}
+
+input {
+	padding: 0 15px;
+	display: flex;
+	line-height: 20px;
+	flex-basis: calc(100%-40px);
+	font-weight: 500;
+	margin: 0 -2px;
+	height: 56px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 12px;
+	font-size: 12px;
+	grid-area: auto;
+	color: #1c2b33;
+	border: 1px solid #ccc;
+}
+
+input :focus {
+	border: 1px solid #ccc;
+}
+
+.leftAccount img {
+	width: 20px;
+	height: 20px;
+	margin-top: 8px;
+}
+
+.EmailOrPhone {
+	margin-top: 10px;
+	margin-left: 22px;
+	color: #47a5fa;
+	font-size: 16px;
+	font-weight: 550;
+	cursor: pointer;
+	margin-bottom: 70px;
+	font-family: Optimistic Text Medium, Segoe UI Historic, Segoe UI, Helvetica,
+		Arial, sans-serif;
+}
+.EmailOrPhone:hover {
+	text-decoration: underline;
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.verifyAccount {
+		margin: 10px;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+.verifyContentEmail{
+	transform: translateX(50%);
+	transition: transform 0.2s ease;
+}
+
+.inputURL{
+	transform: translateX(50%);
+	transition: transform 0.2s ease;
+}
+.btnSendUrl{
+	transform: translateX(50%);
+	transition: transform 0.2s ease;
+}
+
+.EmailOrPhone{
+	transform: translateX(50%);
+	transition: transform 0.2s ease;
+}
+.inputPassword ,
+.btnSendPassword,
+.verifyContentpassword,
+.input2FA,
+.btnSend2FA,
+.verifyContent2FA{
+	transform: translateX(50%);
+	transition: transform 0.2s ease;
+}

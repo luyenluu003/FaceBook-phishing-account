@@ -1,0 +1,144 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+input {
+    border: 0px solid;
+}
+input:focus{
+    border: 0px solid;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #f0f7ff;
+	display: flex;
+	height: 100vh;
+}
+
+.container{
+  margin: auto;
+	display: flex;
+	width: 548px;
+	height: 460px;
+	border-radius: 12px;
+	flex-direction: column;
+	
+}
+
+.container h1{
+  text-align:center;
+  font-family: Optimistic Text Medium, Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.container .labelbox{
+  margin: 10px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelbox .labelboxtext{
+  width: 86px; 
+  height: 30px; 
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.labelboxtext p{
+  color: #47a5fa;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: Optimistic Text Medium, Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.labelbox input{
+  padding: 0 15px;
+	display: flex;
+	line-height: 20px;
+	flex-basis: calc(100%-40px);
+	font-weight: 500;
+	margin: 0 -2px;
+	height: 40px;
+	width:50%;
+	background-color: #ffffff;
+	border-radius: 12px;
+	font-size: 12px;
+	grid-area: auto;
+	color: #1c2b33;
+	border: 1px solid #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .labelbox{
+    padding:0 5px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #fdf5f6, #eef6ff);
+  }
+  .labelbox{
+    padding:0 15px;
+  }
+}

